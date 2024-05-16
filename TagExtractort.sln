@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EA596DB4-B63C-403C-BD37-5332577E2AB0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{FB3137E3-49D6-4F76-A3E7-AA2E9AA79833}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{19AFE10E-BD94-4789-AFBC-17FF6DE4FB38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{6BEDE929-B233-473F-923A-B92E8BBB8E9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TagExtractort.Api", "TagExtractort.Api\TagExtractort.Api.csproj", "{2C26300E-9FC8-44B8-A823-FA05A60458B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TagExtractort.Infrastructure", "TagExtractort.Infrastructure\TagExtractort.Infrastructure.csproj", "{85477F10-4D74-4D5E-9E73-CF44AF7CC304}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TagExtractort.Application", "TagExtractort.Application\TagExtractort.Application.csproj", "{88A4A918-7DFE-4283-9FFD-5A967B0C14AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TagExtractort.Domain", "TagExtractort.Domain\TagExtractort.Domain.csproj", "{6AEE2690-1518-4C58-A422-9E0E42F77B8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C26300E-9FC8-44B8-A823-FA05A60458B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C26300E-9FC8-44B8-A823-FA05A60458B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C26300E-9FC8-44B8-A823-FA05A60458B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C26300E-9FC8-44B8-A823-FA05A60458B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85477F10-4D74-4D5E-9E73-CF44AF7CC304}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85477F10-4D74-4D5E-9E73-CF44AF7CC304}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85477F10-4D74-4D5E-9E73-CF44AF7CC304}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85477F10-4D74-4D5E-9E73-CF44AF7CC304}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88A4A918-7DFE-4283-9FFD-5A967B0C14AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88A4A918-7DFE-4283-9FFD-5A967B0C14AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88A4A918-7DFE-4283-9FFD-5A967B0C14AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88A4A918-7DFE-4283-9FFD-5A967B0C14AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AEE2690-1518-4C58-A422-9E0E42F77B8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AEE2690-1518-4C58-A422-9E0E42F77B8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AEE2690-1518-4C58-A422-9E0E42F77B8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AEE2690-1518-4C58-A422-9E0E42F77B8F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FB3137E3-49D6-4F76-A3E7-AA2E9AA79833} = {EA596DB4-B63C-403C-BD37-5332577E2AB0}
+		{19AFE10E-BD94-4789-AFBC-17FF6DE4FB38} = {EA596DB4-B63C-403C-BD37-5332577E2AB0}
+		{6BEDE929-B233-473F-923A-B92E8BBB8E9A} = {EA596DB4-B63C-403C-BD37-5332577E2AB0}
+		{2C26300E-9FC8-44B8-A823-FA05A60458B6} = {6BEDE929-B233-473F-923A-B92E8BBB8E9A}
+		{85477F10-4D74-4D5E-9E73-CF44AF7CC304} = {19AFE10E-BD94-4789-AFBC-17FF6DE4FB38}
+		{88A4A918-7DFE-4283-9FFD-5A967B0C14AB} = {FB3137E3-49D6-4F76-A3E7-AA2E9AA79833}
+		{6AEE2690-1518-4C58-A422-9E0E42F77B8F} = {FB3137E3-49D6-4F76-A3E7-AA2E9AA79833}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7FD0535-2F3D-4EA5-B625-68AEEF14AEB9}
+	EndGlobalSection
+EndGlobal
